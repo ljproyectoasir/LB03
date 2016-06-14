@@ -1,0 +1,80 @@
+Jun 01 00:05:35 Alton heartbeat: [826]: info: log-rotate detected on logfile /var/log/ha-log
+Jun 01 00:05:35 Alton heartbeat: [826]: info: Received shutdown notice from 'tyrion'.
+Jun 01 00:05:35 Alton heartbeat: [826]: info: Resources being acquired from tyrion.
+Jun 01 00:05:35 Alton heartbeat: [9570]: info: log-rotate detected on logfile /var/log/ha-log
+Jun 01 00:05:35 Alton heartbeat: [9570]: info: acquire local HA resources (standby).
+ResourceManager(default)[9600]:	2016/06/01_00:05:35 info: Acquiring resource group: alton IPaddr::10.0.30.15//8/eth0:10 haproxy
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_10.0.30.15)[9640]:	2016/06/01_00:05:35 INFO:  Running OK
+Jun 01 00:05:35 Alton heartbeat: [9571]: info: Local Resource acquisition completed.
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_10.0.30.15)[9654]:	2016/06/01_00:05:35 INFO:  Running OK
+Jun 01 00:05:35 Alton heartbeat: [9570]: info: local HA resource acquisition completed (standby).
+Jun 01 00:05:35 Alton heartbeat: [826]: info: Standby resource acquisition done [all].
+harc(default)[9749]:	2016/06/01_00:05:35 info: Running /etc/ha.d//rc.d/status status
+mach_down(default)[9764]:	2016/06/01_00:05:36 info: /usr/share/heartbeat/mach_down: nice_failback: foreign resources acquired
+mach_down(default)[9764]:	2016/06/01_00:05:36 info: mach_down takeover complete for node tyrion.
+Jun 01 00:05:36 Alton heartbeat: [826]: info: mach_down takeover complete.
+Jun 01 00:05:52 Alton heartbeat: [826]: WARN: node tyrion: is dead
+Jun 01 00:05:52 Alton heartbeat: [826]: info: Dead node tyrion gave up resources.
+Jun 01 00:05:52 Alton heartbeat: [826]: info: Link tyrion:eth0 dead.
+Jun 01 00:05:52 Alton heartbeat: [826]: info: Heartbeat shutdown in progress. (826)
+Jun 01 00:05:52 Alton heartbeat: [9831]: info: Giving up all HA resources.
+ResourceManager(default)[9847]:	2016/06/01_00:05:52 info: Releasing resource group: alton IPaddr::10.0.30.15//8/eth0:10 haproxy
+ResourceManager(default)[9847]:	2016/06/01_00:05:52 info: Running /etc/init.d/haproxy  stop
+ResourceManager(default)[9847]:	2016/06/01_00:05:52 info: Running /etc/ha.d/resource.d/IPaddr 10.0.30.15//8/eth0:10 stop
+IPaddr(IPaddr_10.0.30.15)[9926]:	2016/06/01_00:05:52 INFO: ifconfig eth0:0 down
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_10.0.30.15)[9902]:	2016/06/01_00:05:52 INFO:  Success
+Jun 01 00:05:52 Alton heartbeat: [9831]: info: All HA resources relinquished.
+Jun 01 00:05:54 Alton heartbeat: [826]: info: killing HBFIFO process 837 with signal 15
+Jun 01 00:05:54 Alton heartbeat: [826]: info: killing HBWRITE process 838 with signal 15
+Jun 01 00:05:54 Alton heartbeat: [826]: info: killing HBWRITE process 840 with signal 15
+Jun 01 00:05:54 Alton heartbeat: [826]: info: killing HBREAD process 841 with signal 15
+Jun 01 00:05:54 Alton heartbeat: [826]: info: killing HBREAD process 839 with signal 15
+Jun 01 00:05:54 Alton heartbeat: [826]: info: Core process 839 exited. 5 remaining
+Jun 01 00:05:54 Alton heartbeat: [826]: info: Core process 840 exited. 4 remaining
+Jun 01 00:05:54 Alton heartbeat: [826]: info: Core process 837 exited. 3 remaining
+Jun 01 00:05:54 Alton heartbeat: [826]: info: Core process 838 exited. 2 remaining
+Jun 01 00:05:54 Alton heartbeat: [826]: info: Core process 841 exited. 1 remaining
+Jun 01 00:05:54 Alton heartbeat: [826]: info: alton Heartbeat shutdown complete.
+Jun 05 21:00:05 Alton heartbeat: [824]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 05 21:00:05 Alton heartbeat: [824]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 05 21:00:05 Alton heartbeat: [824]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 05 21:00:05 Alton heartbeat: [824]: info: Pacemaker support: false
+Jun 05 21:00:05 Alton heartbeat: [824]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 05 21:00:05 Alton heartbeat: [824]: info: **************************
+Jun 05 21:00:05 Alton heartbeat: [824]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 05 21:00:05 Alton heartbeat: [825]: info: heartbeat: version 3.0.5
+Jun 05 21:00:05 Alton heartbeat: [825]: info: Heartbeat generation: 1463833097
+Jun 05 21:00:05 Alton heartbeat: [825]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 05 21:00:05 Alton heartbeat: [825]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 05 21:00:05 Alton heartbeat: [825]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 05 21:00:05 Alton heartbeat: [825]: info: glib: ucast: bound send socket to device: eth0
+Jun 05 21:00:05 Alton heartbeat: [825]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 05 21:00:05 Alton heartbeat: [825]: info: glib: ucast: set SO_REUSEADDR
+Jun 05 21:00:05 Alton heartbeat: [825]: info: glib: ucast: bound receive socket to device: eth0
+Jun 05 21:00:05 Alton heartbeat: [825]: info: glib: ucast: set SO_REUSEPORT
+Jun 05 21:00:05 Alton heartbeat: [825]: info: glib: ucast: started on port 694 interface eth0 to 10.0.30.20
+Jun 05 21:00:05 Alton heartbeat: [825]: info: Local status now set to: 'up'
+Jun 05 21:00:05 Alton heartbeat: [825]: info: Link alton:eth0 up.
+Jun 05 21:00:53 Alton heartbeat: [825]: info: Link tyrion:eth0 up.
+Jun 05 21:00:53 Alton heartbeat: [825]: info: Status update for node tyrion: status up
+harc(default)[851]:	2016/06/05_21:00:53 info: Running /etc/ha.d//rc.d/status status
+Jun 05 21:00:54 Alton heartbeat: [825]: WARN: 1 lost packet(s) for [tyrion] [3:5]
+Jun 05 21:00:54 Alton heartbeat: [825]: info: No pkts missing from tyrion!
+Jun 05 21:00:54 Alton heartbeat: [825]: info: Comm_now_up(): updating status to active
+Jun 05 21:00:54 Alton heartbeat: [825]: info: Local status now set to: 'active'
+Jun 05 21:00:54 Alton heartbeat: [825]: info: Status update for node tyrion: status active
+harc(default)[869]:	2016/06/05_21:00:54 info: Running /etc/ha.d//rc.d/status status
+Jun 05 21:01:04 Alton heartbeat: [825]: info: local resource transition completed.
+Jun 05 21:01:04 Alton heartbeat: [825]: info: Initial resource acquisition complete (T_RESOURCES(us))
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_10.0.30.15)[919]:	2016/06/05_21:01:04 INFO:  Resource is stopped
+Jun 05 21:01:04 Alton heartbeat: [884]: info: Local Resource acquisition completed.
+harc(default)[959]:	2016/06/05_21:01:04 info: Running /etc/ha.d//rc.d/ip-request-resp ip-request-resp
+ip-request-resp(default)[959]:	2016/06/05_21:01:04 received ip-request-resp IPaddr::10.0.30.15//8/eth0:10 OK yes
+ResourceManager(default)[980]:	2016/06/05_21:01:04 info: Acquiring resource group: alton IPaddr::10.0.30.15//8/eth0:10 haproxy
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_10.0.30.15)[1007]:	2016/06/05_21:01:04 INFO:  Resource is stopped
+ResourceManager(default)[980]:	2016/06/05_21:01:04 info: Running /etc/ha.d/resource.d/IPaddr 10.0.30.15//8/eth0:10 start
+IPaddr(IPaddr_10.0.30.15)[1087]:	2016/06/05_21:01:04 INFO: Using calculated netmask for 10.0.30.15: 255.0.0.0
+IPaddr(IPaddr_10.0.30.15)[1087]:	2016/06/05_21:01:04 INFO: eval ifconfig eth0:0 10.0.30.15 netmask 255.0.0.0 broadcast 10.255.255.255
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_10.0.30.15)[1063]:	2016/06/05_21:01:04 INFO:  Success
+ResourceManager(default)[980]:	2016/06/05_21:01:04 info: Running /etc/init.d/haproxy  start
+Jun 05 21:01:05 Alton heartbeat: [825]: info: remote resource transition completed.

@@ -1,0 +1,1422 @@
+Jun 13 14:21:19 alton ntpd[496]: Deleting interface #6 eth0:0, 10.0.30.15#123, interface stats: received=0, sent=0, dropped=0, active_time=12249 secs
+Jun 13 14:21:19 alton ntpd[496]: peers refreshed
+Jun 13 14:21:21 alton heartbeat[6555]: Stopping High-Availability services: Done.
+Jun 13 14:21:21 alton heartbeat[6699]: Starting High-Availability services: 2016/06/13_14:21:21 INFO:  Resource is stopped
+Jun 13 14:21:21 alton heartbeat[6699]: Done.
+Jun 13 14:22:02 alton heartbeat[7241]: Stopping High-Availability services: Done.
+Jun 13 14:22:02 alton heartbeat[7370]: Starting High-Availability services: 2016/06/13_14:22:02 INFO:  Resource is stopped
+Jun 13 14:22:02 alton heartbeat[7370]: Done.
+Jun 13 14:23:49 alton keyboard-setup[172]: Setting preliminary keymap...done.
+Jun 13 14:23:49 alton kbd[239]: Setting console screen modes.
+Jun 13 14:23:49 alton kbd[239]: setterm: $TERM no está definido.
+Jun 13 14:23:49 alton networking[247]: Configuring network interfaces...done.
+Jun 13 14:23:49 alton console-setup[284]: Setting up console font and keymap...done.
+Jun 13 14:23:49 alton rpcbind[412]: Starting rpcbind daemon....
+Jun 13 14:23:49 alton rpc.statd[432]: Version 1.2.8 starting
+Jun 13 14:23:49 alton sm-notify[433]: Version 1.2.8 starting
+Jun 13 14:23:49 alton nfs-common[427]: Starting NFS common utilities: statd idmapd.
+Jun 13 14:23:49 alton ntpd[482]: ntpd 4.2.6p5@1.2349-o Wed Oct 28 20:16:08 UTC 2015 (1)
+Jun 13 14:23:49 alton ntp[459]: Starting NTP server: ntpd.
+Jun 13 14:23:49 alton ntpd[521]: proto: precision = 0.152 usec
+Jun 13 14:23:49 alton irqbalance[460]: Starting SMP IRQ Balancer: irqbalance.
+Jun 13 14:23:49 alton logd[457]: Starting ha_logd: ok
+Jun 13 14:23:49 alton named[447]: starting BIND 9.9.5-9+deb8u6-Debian -f -u bind
+Jun 13 14:23:49 alton named[447]: built with '--prefix=/usr' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc/bind' '--localstatedir=/var' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' 'CFLAGS=-fno-strict-aliasing -fno-delete-null-pointer-checks -DDIG_SIGCHASE -O2'
+Jun 13 14:23:49 alton named[447]: ----------------------------------------------------
+Jun 13 14:23:49 alton named[447]: BIND 9 is maintained by Internet Systems Consortium,
+Jun 13 14:23:49 alton named[447]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+Jun 13 14:23:49 alton named[447]: corporation.  Support and training for BIND 9 are
+Jun 13 14:23:49 alton named[447]: available at https://www.isc.org/support
+Jun 13 14:23:49 alton named[447]: ----------------------------------------------------
+Jun 13 14:23:49 alton named[447]: adjusted limit on open files from 4096 to 1048576
+Jun 13 14:23:49 alton named[447]: found 2 CPUs, using 2 worker threads
+Jun 13 14:23:49 alton named[447]: using 2 UDP listeners per interface
+Jun 13 14:23:49 alton named[447]: using up to 4096 sockets
+Jun 13 14:23:49 alton openhpid[458]: Starting openhpid: success.
+Jun 13 14:23:49 alton dbus[462]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Jun 13 14:23:49 alton systemd[1]: openhpid.service: Supervising process 532 which is not our child. We'll most likely not notice when it exits.
+Jun 13 14:23:49 alton named[447]: loading configuration from '/etc/bind/named.conf'
+Jun 13 14:23:49 alton logd: [526]: info: logd started with /etc/logd.cf.
+Jun 13 14:23:49 alton logd: [526]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 14:23:49 alton logd: [526]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 14:23:49 alton logd: [526]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 14:23:49 alton ntpd[521]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jun 13 14:23:49 alton ntpd[521]: Listen and drop on 1 v6wildcard :: UDP 123
+Jun 13 14:23:49 alton ntpd[521]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jun 13 14:23:49 alton ntpd[521]: Listen normally on 3 eth0 10.0.30.10 UDP 123
+Jun 13 14:23:49 alton ntpd[521]: Listen normally on 4 lo ::1 UDP 123
+Jun 13 14:23:49 alton ntpd[521]: peers refreshed
+Jun 13 14:23:49 alton ntpd[521]: Listening on routing socket on fd #21 for interface updates
+Jun 13 14:23:49 alton named[447]: reading built-in trusted keys from file '/etc/bind/bind.keys'
+Jun 13 14:23:49 alton named[447]: using default UDP/IPv4 port range: [1024, 65535]
+Jun 13 14:23:49 alton named[447]: using default UDP/IPv6 port range: [1024, 65535]
+Jun 13 14:23:49 alton named[447]: listening on IPv4 interface lo, 127.0.0.1#53
+Jun 13 14:23:49 alton named[447]: listening on IPv4 interface eth0, 10.0.30.10#53
+Jun 13 14:23:49 alton named[447]: generating session key for dynamic DNS
+Jun 13 14:23:49 alton named[447]: sizing zone task pool based on 7 zones
+Jun 13 14:23:49 alton named[447]: using built-in root key for view _default
+Jun 13 14:23:49 alton named[447]: set up managed keys zone for view _default, file 'managed-keys.bind'
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 16.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 17.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 18.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 19.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 20.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 21.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 22.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 23.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 24.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 25.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 26.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 27.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 28.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 29.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 30.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 31.172.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 168.192.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 64.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 65.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 66.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 67.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 68.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 69.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 70.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 71.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 72.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 73.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 74.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 75.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 76.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 77.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 78.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 79.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 80.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 81.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 82.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 83.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 84.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 85.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 86.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 87.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 88.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 89.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 90.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 91.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 92.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 93.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 94.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 95.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 96.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 97.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 98.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 99.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 100.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 101.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 102.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 103.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 104.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 105.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 106.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 107.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 108.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 109.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 110.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 111.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 112.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 113.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 114.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 115.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 116.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 117.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 118.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 119.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 120.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 121.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 122.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 123.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 124.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 125.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 126.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 127.100.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: D.F.IP6.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 8.E.F.IP6.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 9.E.F.IP6.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: A.E.F.IP6.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: B.E.F.IP6.ARPA
+Jun 13 14:23:49 alton named[447]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+Jun 13 14:23:49 alton xinetd[455]: Starting internet superserver: xinetd.
+Jun 13 14:23:49 alton xinetd[557]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 14:23:49 alton named[447]: command channel listening on 127.0.0.1#953
+Jun 13 14:23:49 alton named[447]: command channel listening on ::1#953
+Jun 13 14:23:49 alton xinetd[557]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 14:23:49 alton xinetd[557]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 14:23:49 alton xinetd[557]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 14:23:49 alton xinetd[557]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 14:23:49 alton systemd[1]: openhpid.service: main process exited, code=exited, status=8/n/a
+Jun 13 14:23:49 alton named[447]: managed-keys-zone: loaded serial 4
+Jun 13 14:23:49 alton openhpid[654]: Stopping openhpid: success.
+Jun 13 14:23:49 alton systemd[1]: Unit openhpid.service entered failed state.
+Jun 13 14:23:49 alton named[447]: zone 10.in-addr.arpa/IN: loaded serial 97
+Jun 13 14:23:49 alton named[447]: zone 127.in-addr.arpa/IN: loaded serial 1
+Jun 13 14:23:49 alton named[447]: zone got/IN: loaded serial 96
+Jun 13 14:23:49 alton named[447]: zone 255.in-addr.arpa/IN: loaded serial 1
+Jun 13 14:23:49 alton named[447]: zone localhost/IN: loaded serial 2
+Jun 13 14:23:49 alton named[447]: zone 0.in-addr.arpa/IN: loaded serial 1
+Jun 13 14:23:49 alton named[447]: all zones loaded
+Jun 13 14:23:49 alton named[447]: running
+Jun 13 14:23:49 alton named[447]: zone got/IN: sending notifies (serial 96)
+Jun 13 14:23:49 alton named[447]: zone 10.in-addr.arpa/IN: sending notifies (serial 97)
+Jun 13 14:23:49 alton xinetd[557]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 14:23:49 alton xinetd[557]: removing chargen
+Jun 13 14:23:49 alton xinetd[557]: removing chargen
+Jun 13 14:23:49 alton xinetd[557]: removing daytime
+Jun 13 14:23:49 alton xinetd[557]: removing daytime
+Jun 13 14:23:49 alton xinetd[557]: removing discard
+Jun 13 14:23:49 alton xinetd[557]: removing discard
+Jun 13 14:23:49 alton xinetd[557]: removing echo
+Jun 13 14:23:49 alton xinetd[557]: removing echo
+Jun 13 14:23:49 alton xinetd[557]: removing time
+Jun 13 14:23:49 alton xinetd[557]: removing time
+Jun 13 14:23:49 alton xinetd[557]: xinetd Version 2.3.15 started with libwrap loadavg options compiled in.
+Jun 13 14:23:49 alton xinetd[557]: Started working: 1 available service
+Jun 13 14:23:50 alton heartbeat[535]: Starting High-Availability services: 2016/06/13_14:23:50 INFO:  Resource is stopped
+Jun 13 14:23:50 alton exim4[456]: Starting MTA: exim4.
+Jun 13 14:23:50 alton heartbeat[535]: Done.
+Jun 13 14:23:52 alton ntpd[521]: Listen normally on 5 eth0 fe80::3034:30ff:fe32:3234 UDP 123
+Jun 13 14:23:52 alton ntpd[521]: peers refreshed
+Jun 13 14:24:00 alton named[447]: client 10.0.30.20#58044: received notify for zone 'got'
+Jun 13 14:24:00 alton named[447]: zone got/IN: refused notify from non-master: 10.0.30.20#58044
+Jun 13 14:24:00 alton named[447]: client 10.0.30.20#58044: received notify for zone '10.in-addr.arpa'
+Jun 13 14:24:00 alton named[447]: zone 10.in-addr.arpa/IN: refused notify from non-master: 10.0.30.20#58044
+Jun 13 14:24:27 alton systemd[1]: haproxy.service start request repeated too quickly, refusing to start.
+Jun 13 14:24:27 alton systemd[1]: Failed to start HAProxy Load Balancer.
+Jun 13 14:24:27 alton systemd[1]: Unit haproxy.service entered failed state.
+Jun 13 14:25:01 alton systemd[1]: haproxy.service start request repeated too quickly, refusing to start.
+Jun 13 14:25:01 alton systemd[1]: Failed to start HAProxy Load Balancer.
+Jun 13 14:25:01 alton systemd[1]: Unit haproxy.service entered failed state.
+Jun 13 14:25:20 alton systemd[1]: haproxy.service start request repeated too quickly, refusing to start.
+Jun 13 14:25:20 alton systemd[1]: Failed to start HAProxy Load Balancer.
+Jun 13 14:25:20 alton systemd[1]: Unit haproxy.service entered failed state.
+Jun 13 14:25:57 alton heartbeat[1712]: Stopping High-Availability services: Done.
+Jun 13 14:25:57 alton heartbeat[1841]: Starting High-Availability services: 2016/06/13_14:25:57 INFO:  Resource is stopped
+Jun 13 14:25:57 alton heartbeat[1841]: Done.
+Jun 13 14:29:34 alton heartbeat[4374]: Stopping High-Availability services: Done.
+Jun 13 14:29:34 alton heartbeat[4503]: Starting High-Availability services: 2016/06/13_14:29:34 INFO:  Resource is stopped
+Jun 13 14:29:34 alton heartbeat[4503]: Done.
+Jun 13 14:30:38 alton named[447]: client 10.0.30.20#63529: received notify for zone '10.in-addr.arpa'
+Jun 13 14:30:38 alton named[447]: zone 10.in-addr.arpa/IN: refused notify from non-master: 10.0.30.20#63529
+Jun 13 14:30:38 alton named[447]: client 10.0.30.20#63529: received notify for zone 'got'
+Jun 13 14:30:38 alton named[447]: zone got/IN: refused notify from non-master: 10.0.30.20#63529
+Jun 13 14:31:01 alton heartbeat[5248]: Stopping High-Availability services: Done.
+Jun 13 14:31:01 alton heartbeat[5377]: Starting High-Availability services: 2016/06/13_14:31:01 INFO:  Resource is stopped
+Jun 13 14:31:01 alton heartbeat[5377]: Done.
+Jun 13 14:32:59 alton heartbeat[6506]: Stopping High-Availability services: Done.
+Jun 13 14:32:59 alton heartbeat[6642]: Starting High-Availability services: 2016/06/13_14:32:59 INFO:  Resource is stopped
+Jun 13 14:32:59 alton heartbeat[6642]: Done.
+Jun 13 14:33:36 alton systemd[1]: haproxy.service start request repeated too quickly, refusing to start.
+Jun 13 14:33:36 alton systemd[1]: Failed to start HAProxy Load Balancer.
+Jun 13 14:33:36 alton systemd[1]: Unit haproxy.service entered failed state.
+Jun 13 14:33:37 alton systemd[1]: haproxy.service start request repeated too quickly, refusing to start.
+Jun 13 14:33:37 alton systemd[1]: Failed to start HAProxy Load Balancer.
+Jun 13 14:33:39 alton systemd[1]: haproxy.service start request repeated too quickly, refusing to start.
+Jun 13 14:33:39 alton systemd[1]: Failed to start HAProxy Load Balancer.
+Jun 13 14:34:59 alton heartbeat[7474]: Stopping High-Availability services: Done.
+Jun 13 14:34:59 alton heartbeat[7604]: Starting High-Availability services: 2016/06/13_14:34:59 INFO:  Resource is stopped
+Jun 13 14:34:59 alton heartbeat[7604]: Done.
+Jun 13 14:35:05 alton ntpd[521]: Listen normally on 6 eth0:0 10.0.30.15 UDP 123
+Jun 13 14:35:05 alton ntpd[521]: peers refreshed
+Jun 13 14:36:18 alton ntpd[521]: Deleting interface #6 eth0:0, 10.0.30.15#123, interface stats: received=0, sent=0, dropped=0, active_time=73 secs
+Jun 13 14:36:18 alton ntpd[521]: peers refreshed
+Jun 13 14:36:20 alton heartbeat[8199]: Stopping High-Availability services: Done.
+Jun 13 14:36:20 alton heartbeat[8342]: Starting High-Availability services: 2016/06/13_14:36:20 INFO:  Resource is stopped
+Jun 13 14:36:20 alton heartbeat[8342]: Done.
+Jun 13 14:39:11 alton heartbeat[8573]: Stopping High-Availability services: Done.
+Jun 13 14:39:11 alton heartbeat[8708]: Starting High-Availability services: 2016/06/13_14:39:11 INFO:  Resource is stopped
+Jun 13 14:39:11 alton heartbeat[8708]: Done.
+Jun 13 14:40:17 alton ntpd[521]: Listen normally on 7 eth0:0 10.0.30.15 UDP 123
+Jun 13 14:40:17 alton ntpd[521]: peers refreshed
+Jun 13 14:40:24 alton named[447]: client 10.0.30.20#58874: received notify for zone '10.in-addr.arpa'
+Jun 13 14:40:24 alton named[447]: zone 10.in-addr.arpa/IN: refused notify from non-master: 10.0.30.20#58874
+Jun 13 14:40:24 alton named[447]: client 10.0.30.20#58874: received notify for zone 'got'
+Jun 13 14:40:24 alton named[447]: zone got/IN: refused notify from non-master: 10.0.30.20#58874
+Jun 13 14:40:51 alton ntpd[521]: Deleting interface #7 eth0:0, 10.0.30.15#123, interface stats: received=0, sent=0, dropped=0, active_time=34 secs
+Jun 13 14:40:51 alton ntpd[521]: peers refreshed
+Jun 13 14:40:52 alton heartbeat[9344]: Stopping High-Availability services: Done.
+Jun 13 14:40:52 alton heartbeat[9493]: Starting High-Availability services: 2016/06/13_14:40:52 INFO:  Resource is stopped
+Jun 13 14:40:52 alton heartbeat[9493]: Done.
+Jun 13 14:41:45 alton ntpd[521]: Listen normally on 8 eth0:0 10.0.30.15 UDP 123
+Jun 13 14:41:45 alton ntpd[521]: peers refreshed
+Jun 13 14:42:36 alton keyboard-setup[173]: Setting preliminary keymap...done.
+Jun 13 14:42:36 alton kbd[238]: Setting console screen modes.
+Jun 13 14:42:36 alton kbd[238]: setterm: $TERM no está definido.
+Jun 13 14:42:36 alton networking[242]: Configuring network interfaces...done.
+Jun 13 14:42:36 alton rpcbind[394]: Starting rpcbind daemon....
+Jun 13 14:42:36 alton console-setup[294]: Setting up console font and keymap...done.
+Jun 13 14:42:36 alton rpc.statd[431]: Version 1.2.8 starting
+Jun 13 14:42:36 alton sm-notify[432]: Version 1.2.8 starting
+Jun 13 14:42:36 alton nfs-common[424]: Starting NFS common utilities: statd idmapd.
+Jun 13 14:42:36 alton logd[456]: Starting ha_logd: ok
+Jun 13 14:42:36 alton named[446]: starting BIND 9.9.5-9+deb8u6-Debian -f -u bind
+Jun 13 14:42:36 alton named[446]: built with '--prefix=/usr' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc/bind' '--localstatedir=/var' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' 'CFLAGS=-fno-strict-aliasing -fno-delete-null-pointer-checks -DDIG_SIGCHASE -O2'
+Jun 13 14:42:36 alton named[446]: ----------------------------------------------------
+Jun 13 14:42:36 alton named[446]: BIND 9 is maintained by Internet Systems Consortium,
+Jun 13 14:42:36 alton named[446]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+Jun 13 14:42:36 alton named[446]: corporation.  Support and training for BIND 9 are
+Jun 13 14:42:36 alton named[446]: available at https://www.isc.org/support
+Jun 13 14:42:36 alton named[446]: ----------------------------------------------------
+Jun 13 14:42:36 alton named[446]: adjusted limit on open files from 4096 to 1048576
+Jun 13 14:42:36 alton named[446]: found 2 CPUs, using 2 worker threads
+Jun 13 14:42:36 alton named[446]: using 2 UDP listeners per interface
+Jun 13 14:42:36 alton named[446]: using up to 4096 sockets
+Jun 13 14:42:36 alton named[446]: loading configuration from '/etc/bind/named.conf'
+Jun 13 14:42:36 alton ntpd[479]: ntpd 4.2.6p5@1.2349-o Wed Oct 28 20:16:08 UTC 2015 (1)
+Jun 13 14:42:36 alton ntp[458]: Starting NTP server: ntpd.
+Jun 13 14:42:36 alton ntpd[486]: proto: precision = 0.136 usec
+Jun 13 14:42:36 alton dbus[461]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Jun 13 14:42:36 alton irqbalance[460]: Starting SMP IRQ Balancer: irqbalance.
+Jun 13 14:42:36 alton ntpd[486]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jun 13 14:42:36 alton ntpd[486]: Listen and drop on 1 v6wildcard :: UDP 123
+Jun 13 14:42:36 alton ntpd[486]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jun 13 14:42:36 alton ntpd[486]: Listen normally on 3 eth0 10.0.30.10 UDP 123
+Jun 13 14:42:36 alton ntpd[486]: Listen normally on 4 lo ::1 UDP 123
+Jun 13 14:42:36 alton ntpd[486]: peers refreshed
+Jun 13 14:42:36 alton ntpd[486]: Listening on routing socket on fd #21 for interface updates
+Jun 13 14:42:36 alton logd: [481]: info: logd started with /etc/logd.cf.
+Jun 13 14:42:36 alton logd: [481]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 14:42:36 alton logd: [481]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 14:42:36 alton logd: [481]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 14:42:36 alton named[446]: reading built-in trusted keys from file '/etc/bind/bind.keys'
+Jun 13 14:42:36 alton named[446]: using default UDP/IPv4 port range: [1024, 65535]
+Jun 13 14:42:36 alton named[446]: using default UDP/IPv6 port range: [1024, 65535]
+Jun 13 14:42:36 alton named[446]: listening on IPv4 interface lo, 127.0.0.1#53
+Jun 13 14:42:36 alton named[446]: listening on IPv4 interface eth0, 10.0.30.10#53
+Jun 13 14:42:36 alton named[446]: generating session key for dynamic DNS
+Jun 13 14:42:36 alton named[446]: sizing zone task pool based on 7 zones
+Jun 13 14:42:36 alton named[446]: using built-in root key for view _default
+Jun 13 14:42:36 alton named[446]: set up managed keys zone for view _default, file 'managed-keys.bind'
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 16.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 17.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 18.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 19.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 20.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 21.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 22.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 23.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 24.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 25.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 26.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 27.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 28.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 29.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 30.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 31.172.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 168.192.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 64.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 65.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 66.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 67.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 68.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 69.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 70.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 71.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 72.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 73.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 74.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 75.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 76.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 77.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 78.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 79.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 80.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 81.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 82.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 83.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 84.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 85.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 86.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 87.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 88.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 89.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 90.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 91.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 92.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 93.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 94.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 95.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 96.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 97.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 98.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 99.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 100.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 101.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 102.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 103.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 104.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 105.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 106.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 107.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 108.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 109.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 110.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 111.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 112.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 113.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 114.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 115.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 116.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 117.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 118.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 119.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 120.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 121.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 122.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 123.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 124.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 125.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 126.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 127.100.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+Jun 13 14:42:36 alton named[446]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+Jun 13 14:42:37 alton named[446]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Jun 13 14:42:37 alton named[446]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 14:42:37 alton named[446]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 14:42:37 alton named[446]: automatic empty zone: D.F.IP6.ARPA
+Jun 13 14:42:37 alton named[446]: automatic empty zone: 8.E.F.IP6.ARPA
+Jun 13 14:42:37 alton named[446]: automatic empty zone: 9.E.F.IP6.ARPA
+Jun 13 14:42:37 alton named[446]: automatic empty zone: A.E.F.IP6.ARPA
+Jun 13 14:42:37 alton named[446]: automatic empty zone: B.E.F.IP6.ARPA
+Jun 13 14:42:37 alton named[446]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+Jun 13 14:42:37 alton named[446]: command channel listening on 127.0.0.1#953
+Jun 13 14:42:37 alton named[446]: command channel listening on ::1#953
+Jun 13 14:42:37 alton named[446]: managed-keys-zone: loaded serial 4
+Jun 13 14:42:37 alton named[446]: zone 10.in-addr.arpa/IN: loaded serial 97
+Jun 13 14:42:37 alton named[446]: zone 255.in-addr.arpa/IN: loaded serial 1
+Jun 13 14:42:37 alton openhpid[457]: Starting openhpid: success.
+Jun 13 14:42:37 alton named[446]: zone localhost/IN: loaded serial 2
+Jun 13 14:42:37 alton named[446]: zone got/IN: loaded serial 96
+Jun 13 14:42:37 alton named[446]: zone 127.in-addr.arpa/IN: loaded serial 1
+Jun 13 14:42:37 alton named[446]: zone 0.in-addr.arpa/IN: loaded serial 1
+Jun 13 14:42:37 alton named[446]: all zones loaded
+Jun 13 14:42:37 alton named[446]: running
+Jun 13 14:42:37 alton named[446]: zone got/IN: sending notifies (serial 96)
+Jun 13 14:42:37 alton named[446]: zone 10.in-addr.arpa/IN: sending notifies (serial 97)
+Jun 13 14:42:37 alton xinetd[454]: Starting internet superserver: xinetd.
+Jun 13 14:42:37 alton systemd[1]: openhpid.service: main process exited, code=exited, status=8/n/a
+Jun 13 14:42:37 alton xinetd[598]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 14:42:37 alton xinetd[598]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 14:42:37 alton xinetd[598]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 14:42:37 alton xinetd[598]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 14:42:37 alton xinetd[598]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 14:42:37 alton openhpid[595]: Stopping openhpid: success.
+Jun 13 14:42:37 alton xinetd[598]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 14:42:37 alton xinetd[598]: removing chargen
+Jun 13 14:42:37 alton xinetd[598]: removing chargen
+Jun 13 14:42:37 alton xinetd[598]: removing daytime
+Jun 13 14:42:37 alton xinetd[598]: removing daytime
+Jun 13 14:42:37 alton xinetd[598]: removing discard
+Jun 13 14:42:37 alton xinetd[598]: removing discard
+Jun 13 14:42:37 alton xinetd[598]: removing echo
+Jun 13 14:42:37 alton xinetd[598]: removing echo
+Jun 13 14:42:37 alton xinetd[598]: removing time
+Jun 13 14:42:37 alton xinetd[598]: removing time
+Jun 13 14:42:37 alton xinetd[598]: xinetd Version 2.3.15 started with libwrap loadavg options compiled in.
+Jun 13 14:42:37 alton systemd[1]: Unit openhpid.service entered failed state.
+Jun 13 14:42:37 alton xinetd[598]: Started working: 1 available service
+Jun 13 14:42:37 alton heartbeat[544]: Starting High-Availability services: 2016/06/13_14:42:37 INFO:  Resource is stopped
+Jun 13 14:42:37 alton heartbeat[544]: Done.
+Jun 13 14:42:37 alton exim4[455]: Starting MTA: exim4.
+Jun 13 14:42:39 alton ntpd[486]: Listen normally on 5 eth0 fe80::3034:30ff:fe32:3234 UDP 123
+Jun 13 14:42:39 alton ntpd[486]: peers refreshed
+Jun 13 14:42:42 alton ntpd[486]: Listen normally on 6 eth0:0 10.0.30.15 UDP 123
+Jun 13 14:42:42 alton ntpd[486]: peers refreshed
+Jun 13 14:42:48 alton named[446]: client 10.0.30.20#13430: received notify for zone '10.in-addr.arpa'
+Jun 13 14:42:48 alton named[446]: zone 10.in-addr.arpa/IN: refused notify from non-master: 10.0.30.20#13430
+Jun 13 14:42:48 alton named[446]: client 10.0.30.20#13430: received notify for zone 'got'
+Jun 13 14:42:48 alton named[446]: zone got/IN: refused notify from non-master: 10.0.30.20#13430
+Jun 13 14:43:08 alton ntpd[486]: Deleting interface #6 eth0:0, 10.0.30.15#123, interface stats: received=0, sent=0, dropped=0, active_time=25 secs
+Jun 13 14:43:08 alton ntpd[486]: peers refreshed
+Jun 13 14:43:09 alton heartbeat[1353]: Stopping High-Availability services: Done.
+Jun 13 14:43:09 alton heartbeat[1503]: Starting High-Availability services: 2016/06/13_14:43:09 INFO:  Resource is stopped
+Jun 13 14:43:09 alton heartbeat[1503]: Done.
+Jun 13 14:49:34 alton ntpd[486]: Listen normally on 7 eth0:0 10.0.30.15 UDP 123
+Jun 13 14:49:34 alton ntpd[486]: peers refreshed
+Jun 13 14:50:11 alton ntpd[486]: Deleting interface #7 eth0:0, 10.0.30.15#123, interface stats: received=0, sent=0, dropped=0, active_time=37 secs
+Jun 13 14:50:11 alton ntpd[486]: peers refreshed
+Jun 13 14:50:13 alton heartbeat[2428]: Stopping High-Availability services: Done.
+Jun 13 14:50:13 alton heartbeat[2571]: Starting High-Availability services: 2016/06/13_14:50:13 INFO:  Resource is stopped
+Jun 13 14:50:13 alton heartbeat[2571]: Done.
+Jun 13 14:52:33 alton keyboard-setup[174]: Setting preliminary keymap...done.
+Jun 13 14:52:33 alton kbd[239]: Setting console screen modes.
+Jun 13 14:52:33 alton kbd[239]: setterm: $TERM no está definido.
+Jun 13 14:52:33 alton console-setup[293]: Setting up console font and keymap...done.
+Jun 13 14:52:33 alton networking[247]: Configuring network interfaces...done.
+Jun 13 14:52:33 alton rpcbind[413]: Starting rpcbind daemon....
+Jun 13 14:52:33 alton rpc.statd[431]: Version 1.2.8 starting
+Jun 13 14:52:33 alton sm-notify[432]: Version 1.2.8 starting
+Jun 13 14:52:33 alton nfs-common[426]: Starting NFS common utilities: statd idmapd.
+Jun 13 14:52:33 alton named[446]: starting BIND 9.9.5-9+deb8u6-Debian -f -u bind
+Jun 13 14:52:33 alton named[446]: built with '--prefix=/usr' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc/bind' '--localstatedir=/var' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' 'CFLAGS=-fno-strict-aliasing -fno-delete-null-pointer-checks -DDIG_SIGCHASE -O2'
+Jun 13 14:52:33 alton named[446]: ----------------------------------------------------
+Jun 13 14:52:33 alton named[446]: BIND 9 is maintained by Internet Systems Consortium,
+Jun 13 14:52:33 alton named[446]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+Jun 13 14:52:33 alton named[446]: corporation.  Support and training for BIND 9 are
+Jun 13 14:52:33 alton named[446]: available at https://www.isc.org/support
+Jun 13 14:52:33 alton named[446]: ----------------------------------------------------
+Jun 13 14:52:33 alton named[446]: adjusted limit on open files from 4096 to 1048576
+Jun 13 14:52:33 alton named[446]: found 2 CPUs, using 2 worker threads
+Jun 13 14:52:33 alton named[446]: using 2 UDP listeners per interface
+Jun 13 14:52:33 alton named[446]: using up to 4096 sockets
+Jun 13 14:52:33 alton named[446]: loading configuration from '/etc/bind/named.conf'
+Jun 13 14:52:33 alton named[446]: reading built-in trusted keys from file '/etc/bind/bind.keys'
+Jun 13 14:52:33 alton named[446]: using default UDP/IPv4 port range: [1024, 65535]
+Jun 13 14:52:33 alton named[446]: using default UDP/IPv6 port range: [1024, 65535]
+Jun 13 14:52:33 alton named[446]: listening on IPv4 interface lo, 127.0.0.1#53
+Jun 13 14:52:33 alton named[446]: listening on IPv4 interface eth0, 10.0.30.10#53
+Jun 13 14:52:33 alton named[446]: generating session key for dynamic DNS
+Jun 13 14:52:33 alton named[446]: sizing zone task pool based on 7 zones
+Jun 13 14:52:33 alton ntpd[526]: ntpd 4.2.6p5@1.2349-o Wed Oct 28 20:16:08 UTC 2015 (1)
+Jun 13 14:52:33 alton ntp[458]: Starting NTP server: ntpd.
+Jun 13 14:52:33 alton ntpd[528]: proto: precision = 0.109 usec
+Jun 13 14:52:33 alton ntpd[528]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jun 13 14:52:33 alton ntpd[528]: Listen and drop on 1 v6wildcard :: UDP 123
+Jun 13 14:52:33 alton ntpd[528]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jun 13 14:52:33 alton ntpd[528]: Listen normally on 3 eth0 10.0.30.10 UDP 123
+Jun 13 14:52:33 alton ntpd[528]: Listen normally on 4 lo ::1 UDP 123
+Jun 13 14:52:33 alton ntpd[528]: peers refreshed
+Jun 13 14:52:33 alton ntpd[528]: Listening on routing socket on fd #21 for interface updates
+Jun 13 14:52:33 alton named[446]: using built-in root key for view _default
+Jun 13 14:52:33 alton named[446]: set up managed keys zone for view _default, file 'managed-keys.bind'
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 16.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 17.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 18.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 19.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 20.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 21.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 22.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 23.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 24.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 25.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 26.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 27.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 28.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 29.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 30.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 31.172.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 168.192.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 64.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 65.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 66.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 67.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 68.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 69.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 70.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 71.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 72.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 73.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 74.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 75.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 76.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 77.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 78.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 79.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 80.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 81.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 82.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 83.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 84.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 85.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 86.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 87.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 88.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 89.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 90.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 91.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 92.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 93.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 94.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 95.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 96.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 97.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 98.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 99.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 100.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 101.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 102.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 103.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 104.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 105.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 106.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 107.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 108.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 109.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 110.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 111.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 112.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 113.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 114.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 115.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 116.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 117.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 118.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 119.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 120.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 121.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 122.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 123.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 124.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 125.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 126.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 127.100.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: D.F.IP6.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 8.E.F.IP6.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 9.E.F.IP6.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: A.E.F.IP6.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: B.E.F.IP6.ARPA
+Jun 13 14:52:33 alton named[446]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+Jun 13 14:52:33 alton named[446]: command channel listening on 127.0.0.1#953
+Jun 13 14:52:33 alton named[446]: command channel listening on ::1#953
+Jun 13 14:52:33 alton named[446]: managed-keys-zone: loaded serial 4
+Jun 13 14:52:33 alton named[446]: zone 10.in-addr.arpa/IN: loaded serial 97
+Jun 13 14:52:33 alton named[446]: zone 127.in-addr.arpa/IN: loaded serial 1
+Jun 13 14:52:33 alton logd[456]: Starting ha_logd: ok
+Jun 13 14:52:33 alton openhpid[457]: Starting openhpid: success.
+Jun 13 14:52:33 alton named[446]: zone localhost/IN: loaded serial 2
+Jun 13 14:52:33 alton named[446]: zone 255.in-addr.arpa/IN: loaded serial 1
+Jun 13 14:52:33 alton logd: [544]: info: logd started with /etc/logd.cf.
+Jun 13 14:52:33 alton logd: [544]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 14:52:33 alton logd: [544]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 14:52:33 alton logd: [544]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 14:52:33 alton irqbalance[459]: Starting SMP IRQ Balancer: irqbalance.
+Jun 13 14:52:33 alton systemd[1]: openhpid.service: main process exited, code=exited, status=8/n/a
+Jun 13 14:52:33 alton named[446]: zone 0.in-addr.arpa/IN: loaded serial 1
+Jun 13 14:52:33 alton named[446]: zone got/IN: loaded serial 96
+Jun 13 14:52:33 alton named[446]: all zones loaded
+Jun 13 14:52:33 alton named[446]: running
+Jun 13 14:52:33 alton named[446]: zone 10.in-addr.arpa/IN: sending notifies (serial 97)
+Jun 13 14:52:33 alton named[446]: zone got/IN: sending notifies (serial 96)
+Jun 13 14:52:33 alton openhpid[675]: Stopping openhpid: success.
+Jun 13 14:52:33 alton systemd[1]: Unit openhpid.service entered failed state.
+Jun 13 14:52:33 alton xinetd[454]: Starting internet superserver: xinetd.
+Jun 13 14:52:33 alton xinetd[780]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 14:52:33 alton xinetd[780]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 14:52:33 alton xinetd[780]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 14:52:33 alton xinetd[780]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 14:52:33 alton xinetd[780]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 14:52:33 alton xinetd[780]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 14:52:33 alton xinetd[780]: removing chargen
+Jun 13 14:52:33 alton xinetd[780]: removing chargen
+Jun 13 14:52:33 alton xinetd[780]: removing daytime
+Jun 13 14:52:33 alton xinetd[780]: removing daytime
+Jun 13 14:52:33 alton xinetd[780]: removing discard
+Jun 13 14:52:33 alton xinetd[780]: removing discard
+Jun 13 14:52:33 alton xinetd[780]: removing echo
+Jun 13 14:52:33 alton xinetd[780]: removing echo
+Jun 13 14:52:33 alton xinetd[780]: removing time
+Jun 13 14:52:33 alton xinetd[780]: removing time
+Jun 13 14:52:33 alton xinetd[780]: xinetd Version 2.3.15 started with libwrap loadavg options compiled in.
+Jun 13 14:52:33 alton xinetd[780]: Started working: 1 available service
+Jun 13 14:52:33 alton exim4[455]: Starting MTA: exim4.
+Jun 13 14:52:33 alton heartbeat[560]: Starting High-Availability services: 2016/06/13_14:52:33 INFO:  Resource is stopped
+Jun 13 14:52:33 alton heartbeat[560]: Done.
+Jun 13 14:52:36 alton ntpd[528]: Listen normally on 5 eth0 fe80::3034:30ff:fe32:3234 UDP 123
+Jun 13 14:52:36 alton ntpd[528]: peers refreshed
+Jun 13 14:52:39 alton named[446]: client 10.0.30.20#6278: received notify for zone '10.in-addr.arpa'
+Jun 13 14:52:39 alton named[446]: zone 10.in-addr.arpa/IN: refused notify from non-master: 10.0.30.20#6278
+Jun 13 14:52:39 alton named[446]: client 10.0.30.20#6278: received notify for zone 'got'
+Jun 13 14:52:39 alton named[446]: zone got/IN: refused notify from non-master: 10.0.30.20#6278
+Jun 13 16:06:47 alton heartbeat[2743]: Stopping High-Availability services: Done.
+Jun 13 16:06:47 alton heartbeat[2871]: Starting High-Availability services: 2016/06/13_16:06:47 INFO:  Resource is stopped
+Jun 13 16:06:47 alton heartbeat[2871]: Done.
+Jun 13 16:08:17 alton ntpd[528]: Listen normally on 6 eth0:0 10.0.30.15 UDP 123
+Jun 13 16:08:17 alton ntpd[528]: peers refreshed
+Jun 13 16:08:45 alton ntpd[528]: Deleting interface #6 eth0:0, 10.0.30.15#123, interface stats: received=0, sent=0, dropped=0, active_time=28 secs
+Jun 13 16:08:45 alton ntpd[528]: peers refreshed
+Jun 13 16:08:46 alton heartbeat[3661]: Stopping High-Availability services: Done.
+Jun 13 16:08:46 alton heartbeat[3804]: Starting High-Availability services: 2016/06/13_16:08:46 INFO:  Resource is stopped
+Jun 13 16:08:46 alton heartbeat[3804]: Done.
+Jun 13 16:49:19 alton ntpd[528]: Listen normally on 7 eth0:0 10.0.30.15 UDP 123
+Jun 13 16:49:19 alton ntpd[528]: peers refreshed
+Jun 13 16:54:18 alton keyboard-setup[170]: Setting preliminary keymap...done.
+Jun 13 16:54:18 alton kbd[240]: Setting console screen modes.
+Jun 13 16:54:18 alton kbd[240]: setterm: $TERM no está definido.
+Jun 13 16:54:18 alton console-setup[294]: Setting up console font and keymap...done.
+Jun 13 16:54:18 alton networking[248]: Configuring network interfaces...done.
+Jun 13 16:54:18 alton rpcbind[418]: Starting rpcbind daemon....
+Jun 13 16:54:18 alton rpc.statd[436]: Version 1.2.8 starting
+Jun 13 16:54:18 alton sm-notify[437]: Version 1.2.8 starting
+Jun 13 16:54:18 alton nfs-common[431]: Starting NFS common utilities: statd idmapd.
+Jun 13 16:54:18 alton logd[461]: Starting ha_logd: ok
+Jun 13 16:54:18 alton dbus[466]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Jun 13 16:54:18 alton named[451]: starting BIND 9.9.5-9+deb8u6-Debian -f -u bind
+Jun 13 16:54:18 alton named[451]: built with '--prefix=/usr' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc/bind' '--localstatedir=/var' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' 'CFLAGS=-fno-strict-aliasing -fno-delete-null-pointer-checks -DDIG_SIGCHASE -O2'
+Jun 13 16:54:18 alton named[451]: ----------------------------------------------------
+Jun 13 16:54:18 alton named[451]: BIND 9 is maintained by Internet Systems Consortium,
+Jun 13 16:54:18 alton named[451]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+Jun 13 16:54:18 alton named[451]: corporation.  Support and training for BIND 9 are
+Jun 13 16:54:18 alton named[451]: available at https://www.isc.org/support
+Jun 13 16:54:18 alton named[451]: ----------------------------------------------------
+Jun 13 16:54:18 alton named[451]: adjusted limit on open files from 4096 to 1048576
+Jun 13 16:54:18 alton named[451]: found 2 CPUs, using 2 worker threads
+Jun 13 16:54:18 alton named[451]: using 2 UDP listeners per interface
+Jun 13 16:54:18 alton named[451]: using up to 4096 sockets
+Jun 13 16:54:18 alton named[451]: loading configuration from '/etc/bind/named.conf'
+Jun 13 16:54:18 alton logd: [481]: info: logd started with /etc/logd.cf.
+Jun 13 16:54:18 alton logd: [481]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 16:54:18 alton logd: [481]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 16:54:18 alton logd: [481]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 16:54:18 alton irqbalance[464]: Starting SMP IRQ Balancer: irqbalance.
+Jun 13 16:54:18 alton xinetd[459]: Starting internet superserver: xinetd.
+Jun 13 16:54:18 alton xinetd[508]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 16:54:18 alton xinetd[508]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 16:54:18 alton xinetd[508]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 16:54:18 alton xinetd[508]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 16:54:18 alton xinetd[508]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 16:54:18 alton named[451]: reading built-in trusted keys from file '/etc/bind/bind.keys'
+Jun 13 16:54:18 alton named[451]: using default UDP/IPv4 port range: [1024, 65535]
+Jun 13 16:54:18 alton named[451]: using default UDP/IPv6 port range: [1024, 65535]
+Jun 13 16:54:18 alton named[451]: listening on IPv4 interface lo, 127.0.0.1#53
+Jun 13 16:54:18 alton named[451]: listening on IPv4 interface eth0, 10.0.30.10#53
+Jun 13 16:54:18 alton named[451]: generating session key for dynamic DNS
+Jun 13 16:54:18 alton named[451]: sizing zone task pool based on 7 zones
+Jun 13 16:54:18 alton ntpd[510]: ntpd 4.2.6p5@1.2349-o Wed Oct 28 20:16:08 UTC 2015 (1)
+Jun 13 16:54:18 alton ntp[463]: Starting NTP server: ntpd.
+Jun 13 16:54:18 alton ntpd[511]: proto: precision = 0.103 usec
+Jun 13 16:54:18 alton ntpd[511]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jun 13 16:54:18 alton ntpd[511]: Listen and drop on 1 v6wildcard :: UDP 123
+Jun 13 16:54:18 alton ntpd[511]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jun 13 16:54:18 alton ntpd[511]: Listen normally on 3 eth0 10.0.30.10 UDP 123
+Jun 13 16:54:18 alton ntpd[511]: Listen normally on 4 lo ::1 UDP 123
+Jun 13 16:54:18 alton ntpd[511]: peers refreshed
+Jun 13 16:54:18 alton ntpd[511]: Listening on routing socket on fd #21 for interface updates
+Jun 13 16:54:18 alton named[451]: using built-in root key for view _default
+Jun 13 16:54:18 alton named[451]: set up managed keys zone for view _default, file 'managed-keys.bind'
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 16.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 17.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 18.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 19.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 20.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 21.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 22.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 23.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 24.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 25.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 26.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 27.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 28.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 29.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 30.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 31.172.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 168.192.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 64.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 65.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 66.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 67.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 68.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 69.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 70.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 71.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 72.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 73.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 74.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 75.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 76.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 77.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 78.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 79.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 80.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 81.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 82.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 83.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 84.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 85.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 86.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 87.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 88.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 89.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 90.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 91.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 92.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 93.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 94.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 95.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 96.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 97.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 98.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 99.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 100.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 101.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 102.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 103.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 104.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 105.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton xinetd[508]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 106.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 107.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 108.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 109.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 110.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 111.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 112.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 113.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 114.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 115.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 116.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton xinetd[508]: removing chargen
+Jun 13 16:54:18 alton xinetd[508]: removing chargen
+Jun 13 16:54:18 alton xinetd[508]: removing daytime
+Jun 13 16:54:18 alton xinetd[508]: removing daytime
+Jun 13 16:54:18 alton xinetd[508]: removing discard
+Jun 13 16:54:18 alton xinetd[508]: removing discard
+Jun 13 16:54:18 alton xinetd[508]: removing echo
+Jun 13 16:54:18 alton xinetd[508]: removing echo
+Jun 13 16:54:18 alton xinetd[508]: removing time
+Jun 13 16:54:18 alton xinetd[508]: removing time
+Jun 13 16:54:18 alton xinetd[508]: xinetd Version 2.3.15 started with libwrap loadavg options compiled in.
+Jun 13 16:54:18 alton xinetd[508]: Started working: 1 available service
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 117.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 118.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 119.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 120.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 121.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 122.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 123.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 124.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 125.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 126.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 127.100.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: D.F.IP6.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 8.E.F.IP6.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 9.E.F.IP6.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: A.E.F.IP6.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: B.E.F.IP6.ARPA
+Jun 13 16:54:18 alton named[451]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+Jun 13 16:54:18 alton named[451]: command channel listening on 127.0.0.1#953
+Jun 13 16:54:18 alton named[451]: command channel listening on ::1#953
+Jun 13 16:54:18 alton named[451]: managed-keys-zone: journal file is out of date: removing journal file
+Jun 13 16:54:18 alton named[451]: managed-keys-zone: loaded serial 5
+Jun 13 16:54:18 alton named[451]: zone 0.in-addr.arpa/IN: loaded serial 1
+Jun 13 16:54:18 alton named[451]: zone 127.in-addr.arpa/IN: loaded serial 1
+Jun 13 16:54:18 alton named[451]: zone 255.in-addr.arpa/IN: loaded serial 1
+Jun 13 16:54:18 alton named[451]: zone localhost/IN: loaded serial 2
+Jun 13 16:54:18 alton openhpid[462]: Starting openhpid: success.
+Jun 13 16:54:18 alton named[451]: zone 10.in-addr.arpa/IN: loaded serial 97
+Jun 13 16:54:18 alton named[451]: zone got/IN: loaded serial 96
+Jun 13 16:54:18 alton named[451]: all zones loaded
+Jun 13 16:54:18 alton named[451]: running
+Jun 13 16:54:18 alton named[451]: zone got/IN: sending notifies (serial 96)
+Jun 13 16:54:18 alton named[451]: zone 10.in-addr.arpa/IN: sending notifies (serial 97)
+Jun 13 16:54:18 alton systemd[1]: openhpid.service: main process exited, code=exited, status=8/n/a
+Jun 13 16:54:18 alton openhpid[563]: Stopping openhpid: success.
+Jun 13 16:54:18 alton systemd[1]: Unit openhpid.service entered failed state.
+Jun 13 16:54:18 alton heartbeat[550]: Starting High-Availability services: 2016/06/13_16:54:18 INFO:  Resource is stopped
+Jun 13 16:54:18 alton exim4[460]: Starting MTA: exim4.
+Jun 13 16:54:18 alton heartbeat[550]: Done.
+Jun 13 16:54:21 alton ntpd[511]: Listen normally on 5 eth0 fe80::3034:30ff:fe32:3234 UDP 123
+Jun 13 16:54:21 alton ntpd[511]: peers refreshed
+Jun 13 16:54:24 alton ntpd[511]: Listen normally on 6 eth0:0 10.0.30.15 UDP 123
+Jun 13 16:54:24 alton ntpd[511]: peers refreshed
+Jun 13 17:05:31 alton keyboard-setup[174]: Setting preliminary keymap...done.
+Jun 13 17:05:31 alton kbd[241]: Setting console screen modes.
+Jun 13 17:05:31 alton kbd[241]: setterm: $TERM no está definido.
+Jun 13 17:05:31 alton networking[249]: Configuring network interfaces...done.
+Jun 13 17:05:31 alton console-setup[295]: Setting up console font and keymap...done.
+Jun 13 17:05:31 alton rpcbind[414]: Starting rpcbind daemon....
+Jun 13 17:05:31 alton rpc.statd[432]: Version 1.2.8 starting
+Jun 13 17:05:31 alton sm-notify[433]: Version 1.2.8 starting
+Jun 13 17:05:31 alton nfs-common[427]: Starting NFS common utilities: statd idmapd.
+Jun 13 17:05:31 alton ntpd[480]: ntpd 4.2.6p5@1.2349-o Wed Oct 28 20:16:08 UTC 2015 (1)
+Jun 13 17:05:31 alton ntp[459]: Starting NTP server: ntpd.
+Jun 13 17:05:31 alton ntpd[530]: proto: precision = 0.198 usec
+Jun 13 17:05:31 alton logd[457]: Starting ha_logd: ok
+Jun 13 17:05:31 alton openhpid[458]: Starting openhpid: success.
+Jun 13 17:05:31 alton ntpd[530]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jun 13 17:05:31 alton logd: [560]: info: logd started with /etc/logd.cf.
+Jun 13 17:05:31 alton logd: [560]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 17:05:31 alton logd: [560]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 17:05:31 alton logd: [560]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 17:05:31 alton irqbalance[460]: Starting SMP IRQ Balancer: irqbalance.
+Jun 13 17:05:31 alton ntpd[530]: Listen and drop on 1 v6wildcard :: UDP 123
+Jun 13 17:05:31 alton ntpd[530]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jun 13 17:05:31 alton ntpd[530]: Listen normally on 3 eth0 10.0.30.10 UDP 123
+Jun 13 17:05:31 alton ntpd[530]: Listen normally on 4 lo ::1 UDP 123
+Jun 13 17:05:31 alton ntpd[530]: peers refreshed
+Jun 13 17:05:31 alton ntpd[530]: Listening on routing socket on fd #21 for interface updates
+Jun 13 17:05:31 alton named[447]: starting BIND 9.9.5-9+deb8u6-Debian -f -u bind
+Jun 13 17:05:31 alton named[447]: built with '--prefix=/usr' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc/bind' '--localstatedir=/var' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' 'CFLAGS=-fno-strict-aliasing -fno-delete-null-pointer-checks -DDIG_SIGCHASE -O2'
+Jun 13 17:05:31 alton named[447]: ----------------------------------------------------
+Jun 13 17:05:31 alton named[447]: BIND 9 is maintained by Internet Systems Consortium,
+Jun 13 17:05:31 alton named[447]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+Jun 13 17:05:31 alton named[447]: corporation.  Support and training for BIND 9 are
+Jun 13 17:05:31 alton named[447]: available at https://www.isc.org/support
+Jun 13 17:05:31 alton named[447]: ----------------------------------------------------
+Jun 13 17:05:31 alton named[447]: adjusted limit on open files from 4096 to 1048576
+Jun 13 17:05:31 alton named[447]: found 2 CPUs, using 2 worker threads
+Jun 13 17:05:31 alton named[447]: using 2 UDP listeners per interface
+Jun 13 17:05:31 alton named[447]: using up to 4096 sockets
+Jun 13 17:05:31 alton named[447]: loading configuration from '/etc/bind/named.conf'
+Jun 13 17:05:31 alton xinetd[455]: Starting internet superserver: xinetd.
+Jun 13 17:05:31 alton systemd[1]: openhpid.service: main process exited, code=exited, status=8/n/a
+Jun 13 17:05:31 alton named[447]: reading built-in trusted keys from file '/etc/bind/bind.keys'
+Jun 13 17:05:31 alton named[447]: using default UDP/IPv4 port range: [1024, 65535]
+Jun 13 17:05:31 alton named[447]: using default UDP/IPv6 port range: [1024, 65535]
+Jun 13 17:05:31 alton named[447]: listening on IPv4 interface lo, 127.0.0.1#53
+Jun 13 17:05:31 alton named[447]: listening on IPv4 interface eth0, 10.0.30.10#53
+Jun 13 17:05:31 alton named[447]: generating session key for dynamic DNS
+Jun 13 17:05:31 alton named[447]: sizing zone task pool based on 7 zones
+Jun 13 17:05:31 alton xinetd[755]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 17:05:31 alton xinetd[755]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 17:05:31 alton xinetd[755]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 17:05:31 alton xinetd[755]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 17:05:31 alton xinetd[755]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 17:05:31 alton named[447]: using built-in root key for view _default
+Jun 13 17:05:31 alton named[447]: set up managed keys zone for view _default, file 'managed-keys.bind'
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 16.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 17.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 18.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 19.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 20.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 21.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 22.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 23.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 24.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 25.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 26.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 27.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 28.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 29.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 30.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 31.172.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 168.192.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 64.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 65.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 66.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 67.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 68.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 69.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 70.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 71.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 72.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 73.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 74.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 75.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 76.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton xinetd[755]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 77.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 78.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton xinetd[755]: removing chargen
+Jun 13 17:05:31 alton xinetd[755]: removing chargen
+Jun 13 17:05:31 alton xinetd[755]: removing daytime
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 79.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton xinetd[755]: removing daytime
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 80.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton xinetd[755]: removing discard
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 81.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton xinetd[755]: removing discard
+Jun 13 17:05:31 alton xinetd[755]: removing echo
+Jun 13 17:05:31 alton xinetd[755]: removing echo
+Jun 13 17:05:31 alton xinetd[755]: removing time
+Jun 13 17:05:31 alton xinetd[755]: removing time
+Jun 13 17:05:31 alton xinetd[755]: xinetd Version 2.3.15 started with libwrap loadavg options compiled in.
+Jun 13 17:05:31 alton xinetd[755]: Started working: 1 available service
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 82.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 83.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 84.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 85.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 86.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 87.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 88.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 89.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 90.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 91.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 92.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 93.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 94.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 95.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 96.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 97.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 98.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 99.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 100.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 101.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 102.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 103.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 104.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 105.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 106.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 107.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 108.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 109.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 110.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 111.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 112.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 113.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 114.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 115.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 116.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 117.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 118.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 119.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 120.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 121.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 122.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 123.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 124.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 125.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 126.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 127.100.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: D.F.IP6.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 8.E.F.IP6.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 9.E.F.IP6.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: A.E.F.IP6.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: B.E.F.IP6.ARPA
+Jun 13 17:05:31 alton named[447]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+Jun 13 17:05:31 alton named[447]: command channel listening on 127.0.0.1#953
+Jun 13 17:05:31 alton named[447]: command channel listening on ::1#953
+Jun 13 17:05:31 alton named[447]: managed-keys-zone: loaded serial 5
+Jun 13 17:05:31 alton systemd[1]: Unit openhpid.service entered failed state.
+Jun 13 17:05:31 alton openhpid[757]: Stopping openhpid: success.
+Jun 13 17:05:31 alton named[447]: zone 0.in-addr.arpa/IN: loaded serial 1
+Jun 13 17:05:31 alton named[447]: zone 10.in-addr.arpa/IN: loaded serial 97
+Jun 13 17:05:31 alton named[447]: zone got/IN: loaded serial 96
+Jun 13 17:05:31 alton named[447]: zone localhost/IN: loaded serial 2
+Jun 13 17:05:31 alton named[447]: zone 255.in-addr.arpa/IN: loaded serial 1
+Jun 13 17:05:31 alton named[447]: zone 127.in-addr.arpa/IN: loaded serial 1
+Jun 13 17:05:31 alton named[447]: all zones loaded
+Jun 13 17:05:31 alton named[447]: running
+Jun 13 17:05:31 alton named[447]: zone got/IN: sending notifies (serial 96)
+Jun 13 17:05:31 alton named[447]: zone 10.in-addr.arpa/IN: sending notifies (serial 97)
+Jun 13 17:05:31 alton exim4[456]: Starting MTA: exim4.
+Jun 13 17:05:31 alton heartbeat[591]: Starting High-Availability services: 2016/06/13_17:05:31 INFO:  Resource is stopped
+Jun 13 17:05:31 alton heartbeat[591]: Done.
+Jun 13 17:05:33 alton ntpd[530]: Listen normally on 5 eth0 fe80::3034:30ff:fe32:3234 UDP 123
+Jun 13 17:05:33 alton ntpd[530]: peers refreshed
+Jun 13 17:05:37 alton ntpd[530]: Listen normally on 6 eth0:0 10.0.30.15 UDP 123
+Jun 13 17:05:37 alton ntpd[530]: peers refreshed
+Jun 13 17:06:46 alton named[447]: client 10.0.30.20#49802: received notify for zone 'got'
+Jun 13 17:06:46 alton named[447]: zone got/IN: refused notify from non-master: 10.0.30.20#49802
+Jun 13 17:06:46 alton named[447]: client 10.0.30.20#49802: received notify for zone '10.in-addr.arpa'
+Jun 13 17:06:46 alton named[447]: zone 10.in-addr.arpa/IN: refused notify from non-master: 10.0.30.20#49802
+Jun 13 17:07:52 alton ntpd[530]: Deleting interface #6 eth0:0, 10.0.30.15#123, interface stats: received=0, sent=0, dropped=0, active_time=134 secs
+Jun 13 17:07:52 alton ntpd[530]: peers refreshed
+Jun 13 17:07:53 alton heartbeat[1424]: Stopping High-Availability services: Done.
+Jun 13 17:07:53 alton heartbeat[1573]: Starting High-Availability services: 2016/06/13_17:07:53 INFO:  Resource is stopped
+Jun 13 17:07:53 alton heartbeat[1573]: Done.
+Jun 13 19:21:18 alton ntpd[530]: Listen normally on 7 eth0:0 10.0.30.15 UDP 123
+Jun 13 19:21:18 alton ntpd[530]: peers refreshed
+Jun 13 19:23:04 alton redis-cli[5576]: NOAUTH Authentication required.
+Jun 13 19:24:12 alton keyboard-setup[175]: Setting preliminary keymap...done.
+Jun 13 19:24:12 alton kbd[240]: Setting console screen modes.
+Jun 13 19:24:12 alton kbd[240]: setterm: $TERM no está definido.
+Jun 13 19:24:12 alton console-setup[294]: Setting up console font and keymap...done.
+Jun 13 19:24:12 alton networking[248]: Configuring network interfaces...done.
+Jun 13 19:24:12 alton rpcbind[416]: Starting rpcbind daemon....
+Jun 13 19:24:12 alton rpc.statd[434]: Version 1.2.8 starting
+Jun 13 19:24:12 alton sm-notify[435]: Version 1.2.8 starting
+Jun 13 19:24:12 alton nfs-common[429]: Starting NFS common utilities: statd idmapd.
+Jun 13 19:24:12 alton ntpd[486]: ntpd 4.2.6p5@1.2349-o Wed Oct 28 20:16:08 UTC 2015 (1)
+Jun 13 19:24:12 alton ntp[461]: Starting NTP server: ntpd.
+Jun 13 19:24:12 alton ntpd[512]: proto: precision = 0.185 usec
+Jun 13 19:24:12 alton logd[459]: Starting ha_logd: ok
+Jun 13 19:24:12 alton named[449]: starting BIND 9.9.5-9+deb8u6-Debian -f -u bind
+Jun 13 19:24:12 alton named[449]: built with '--prefix=/usr' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc/bind' '--localstatedir=/var' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' 'CFLAGS=-fno-strict-aliasing -fno-delete-null-pointer-checks -DDIG_SIGCHASE -O2'
+Jun 13 19:24:12 alton named[449]: ----------------------------------------------------
+Jun 13 19:24:12 alton named[449]: BIND 9 is maintained by Internet Systems Consortium,
+Jun 13 19:24:12 alton named[449]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+Jun 13 19:24:12 alton named[449]: corporation.  Support and training for BIND 9 are
+Jun 13 19:24:12 alton named[449]: available at https://www.isc.org/support
+Jun 13 19:24:12 alton named[449]: ----------------------------------------------------
+Jun 13 19:24:12 alton named[449]: adjusted limit on open files from 4096 to 1048576
+Jun 13 19:24:12 alton named[449]: found 2 CPUs, using 2 worker threads
+Jun 13 19:24:12 alton named[449]: using 2 UDP listeners per interface
+Jun 13 19:24:12 alton named[449]: using up to 4096 sockets
+Jun 13 19:24:12 alton openhpid[460]: Starting openhpid: success.
+Jun 13 19:24:12 alton dbus[463]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Jun 13 19:24:12 alton named[449]: loading configuration from '/etc/bind/named.conf'
+Jun 13 19:24:12 alton ntpd[512]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jun 13 19:24:12 alton ntpd[512]: Listen and drop on 1 v6wildcard :: UDP 123
+Jun 13 19:24:12 alton ntpd[512]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jun 13 19:24:12 alton ntpd[512]: Listen normally on 3 eth0 10.0.30.10 UDP 123
+Jun 13 19:24:12 alton ntpd[512]: Listen normally on 4 lo ::1 UDP 123
+Jun 13 19:24:12 alton ntpd[512]: peers refreshed
+Jun 13 19:24:12 alton ntpd[512]: Listening on routing socket on fd #21 for interface updates
+Jun 13 19:24:12 alton logd: [521]: info: logd started with /etc/logd.cf.
+Jun 13 19:24:12 alton logd: [521]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 19:24:12 alton logd: [521]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 19:24:12 alton logd: [521]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 19:24:12 alton systemd[1]: openhpid.service: main process exited, code=exited, status=8/n/a
+Jun 13 19:24:12 alton openhpid[542]: Stopping openhpid: success.
+Jun 13 19:24:12 alton systemd[1]: Unit openhpid.service entered failed state.
+Jun 13 19:24:12 alton named[449]: reading built-in trusted keys from file '/etc/bind/bind.keys'
+Jun 13 19:24:12 alton named[449]: using default UDP/IPv4 port range: [1024, 65535]
+Jun 13 19:24:12 alton named[449]: using default UDP/IPv6 port range: [1024, 65535]
+Jun 13 19:24:12 alton named[449]: listening on IPv4 interface lo, 127.0.0.1#53
+Jun 13 19:24:12 alton named[449]: listening on IPv4 interface eth0, 10.0.30.10#53
+Jun 13 19:24:12 alton named[449]: generating session key for dynamic DNS
+Jun 13 19:24:12 alton named[449]: sizing zone task pool based on 7 zones
+Jun 13 19:24:12 alton named[449]: using built-in root key for view _default
+Jun 13 19:24:12 alton named[449]: set up managed keys zone for view _default, file 'managed-keys.bind'
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 16.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 17.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 18.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 19.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 20.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 21.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 22.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 23.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 24.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton irqbalance[462]: Starting SMP IRQ Balancer: irqbalance.
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 25.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 26.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 27.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 28.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 29.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 30.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 31.172.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 168.192.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 64.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 65.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 66.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 67.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 68.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 69.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 70.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 71.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 72.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 73.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 74.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 75.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 76.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 77.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 78.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 79.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 80.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 81.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 82.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 83.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 84.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 85.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 86.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 87.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 88.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 89.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 90.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 91.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 92.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 93.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 94.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 95.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 96.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 97.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 98.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 99.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 100.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 101.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 102.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 103.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 104.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 105.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 106.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 107.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 108.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 109.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 110.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 111.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 112.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 113.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 114.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 115.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 116.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 117.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 118.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 119.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 120.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 121.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 122.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 123.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 124.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 125.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 126.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 127.100.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: D.F.IP6.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 8.E.F.IP6.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 9.E.F.IP6.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: A.E.F.IP6.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: B.E.F.IP6.ARPA
+Jun 13 19:24:12 alton named[449]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+Jun 13 19:24:12 alton named[449]: command channel listening on 127.0.0.1#953
+Jun 13 19:24:12 alton named[449]: command channel listening on ::1#953
+Jun 13 19:24:12 alton named[449]: managed-keys-zone: loaded serial 5
+Jun 13 19:24:12 alton named[449]: zone 0.in-addr.arpa/IN: loaded serial 1
+Jun 13 19:24:12 alton named[449]: zone 127.in-addr.arpa/IN: loaded serial 1
+Jun 13 19:24:12 alton xinetd[457]: Starting internet superserver: xinetd.
+Jun 13 19:24:12 alton named[449]: zone got/IN: loaded serial 96
+Jun 13 19:24:12 alton named[449]: zone localhost/IN: loaded serial 2
+Jun 13 19:24:12 alton named[449]: zone 255.in-addr.arpa/IN: loaded serial 1
+Jun 13 19:24:12 alton named[449]: zone 10.in-addr.arpa/IN: loaded serial 97
+Jun 13 19:24:12 alton named[449]: all zones loaded
+Jun 13 19:24:12 alton named[449]: running
+Jun 13 19:24:12 alton named[449]: zone got/IN: sending notifies (serial 96)
+Jun 13 19:24:12 alton named[449]: zone 10.in-addr.arpa/IN: sending notifies (serial 97)
+Jun 13 19:24:12 alton xinetd[705]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 19:24:12 alton xinetd[705]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 19:24:12 alton xinetd[705]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 19:24:12 alton xinetd[705]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 19:24:12 alton xinetd[705]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 19:24:12 alton xinetd[705]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 19:24:12 alton xinetd[705]: removing chargen
+Jun 13 19:24:12 alton xinetd[705]: removing chargen
+Jun 13 19:24:12 alton xinetd[705]: removing daytime
+Jun 13 19:24:12 alton xinetd[705]: removing daytime
+Jun 13 19:24:12 alton xinetd[705]: removing discard
+Jun 13 19:24:12 alton xinetd[705]: removing discard
+Jun 13 19:24:12 alton xinetd[705]: removing echo
+Jun 13 19:24:12 alton xinetd[705]: removing echo
+Jun 13 19:24:12 alton xinetd[705]: removing time
+Jun 13 19:24:12 alton xinetd[705]: removing time
+Jun 13 19:24:12 alton xinetd[705]: xinetd Version 2.3.15 started with libwrap loadavg options compiled in.
+Jun 13 19:24:12 alton xinetd[705]: Started working: 1 available service
+Jun 13 19:24:12 alton heartbeat[530]: Starting High-Availability services: 2016/06/13_19:24:12 INFO:  Resource is stopped
+Jun 13 19:24:12 alton exim4[458]: Starting MTA: exim4.
+Jun 13 19:24:12 alton heartbeat[530]: Done.
+Jun 13 19:24:14 alton ntpd[512]: Listen normally on 5 eth0 fe80::3034:30ff:fe32:3234 UDP 123
+Jun 13 19:24:14 alton ntpd[512]: peers refreshed
+Jun 13 19:24:20 alton ntpd[512]: Listen normally on 6 eth0:0 10.0.30.15 UDP 123
+Jun 13 19:24:20 alton ntpd[512]: peers refreshed
+Jun 13 19:25:32 alton keyboard-setup[174]: Setting preliminary keymap...done.
+Jun 13 19:25:32 alton kbd[240]: Setting console screen modes.
+Jun 13 19:25:32 alton kbd[240]: setterm: $TERM no está definido.
+Jun 13 19:25:32 alton networking[248]: Configuring network interfaces...done.
+Jun 13 19:25:32 alton rpcbind[399]: Starting rpcbind daemon....
+Jun 13 19:25:32 alton rpc.statd[432]: Version 1.2.8 starting
+Jun 13 19:25:32 alton sm-notify[433]: Version 1.2.8 starting
+Jun 13 19:25:32 alton console-setup[303]: Setting up console font and keymap...done.
+Jun 13 19:25:32 alton nfs-common[427]: Starting NFS common utilities: statd idmapd.
+Jun 13 19:25:32 alton logd[458]: Starting ha_logd: ok
+Jun 13 19:25:32 alton named[448]: starting BIND 9.9.5-9+deb8u6-Debian -f -u bind
+Jun 13 19:25:32 alton named[448]: built with '--prefix=/usr' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc/bind' '--localstatedir=/var' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' 'CFLAGS=-fno-strict-aliasing -fno-delete-null-pointer-checks -DDIG_SIGCHASE -O2'
+Jun 13 19:25:32 alton named[448]: ----------------------------------------------------
+Jun 13 19:25:32 alton named[448]: BIND 9 is maintained by Internet Systems Consortium,
+Jun 13 19:25:32 alton named[448]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+Jun 13 19:25:32 alton named[448]: corporation.  Support and training for BIND 9 are
+Jun 13 19:25:32 alton named[448]: available at https://www.isc.org/support
+Jun 13 19:25:32 alton named[448]: ----------------------------------------------------
+Jun 13 19:25:32 alton named[448]: adjusted limit on open files from 4096 to 1048576
+Jun 13 19:25:32 alton named[448]: found 2 CPUs, using 2 worker threads
+Jun 13 19:25:32 alton named[448]: using 2 UDP listeners per interface
+Jun 13 19:25:32 alton named[448]: using up to 4096 sockets
+Jun 13 19:25:32 alton named[448]: loading configuration from '/etc/bind/named.conf'
+Jun 13 19:25:32 alton ntpd[481]: ntpd 4.2.6p5@1.2349-o Wed Oct 28 20:16:08 UTC 2015 (1)
+Jun 13 19:25:32 alton ntp[460]: Starting NTP server: ntpd.
+Jun 13 19:25:32 alton ntpd[488]: proto: precision = 0.145 usec
+Jun 13 19:25:32 alton irqbalance[461]: Starting SMP IRQ Balancer: irqbalance.
+Jun 13 19:25:32 alton logd: [483]: info: logd started with /etc/logd.cf.
+Jun 13 19:25:32 alton logd: [483]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 19:25:32 alton logd: [483]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 19:25:32 alton logd: [483]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 19:25:32 alton named[448]: reading built-in trusted keys from file '/etc/bind/bind.keys'
+Jun 13 19:25:32 alton named[448]: using default UDP/IPv4 port range: [1024, 65535]
+Jun 13 19:25:32 alton named[448]: using default UDP/IPv6 port range: [1024, 65535]
+Jun 13 19:25:32 alton named[448]: listening on IPv4 interface lo, 127.0.0.1#53
+Jun 13 19:25:32 alton named[448]: listening on IPv4 interface eth0, 10.0.30.10#53
+Jun 13 19:25:32 alton named[448]: generating session key for dynamic DNS
+Jun 13 19:25:32 alton named[448]: sizing zone task pool based on 7 zones
+Jun 13 19:25:32 alton ntpd[488]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jun 13 19:25:32 alton ntpd[488]: Listen and drop on 1 v6wildcard :: UDP 123
+Jun 13 19:25:32 alton ntpd[488]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jun 13 19:25:32 alton ntpd[488]: Listen normally on 3 eth0 10.0.30.10 UDP 123
+Jun 13 19:25:32 alton ntpd[488]: Listen normally on 4 lo ::1 UDP 123
+Jun 13 19:25:32 alton ntpd[488]: peers refreshed
+Jun 13 19:25:32 alton ntpd[488]: Listening on routing socket on fd #21 for interface updates
+Jun 13 19:25:32 alton named[448]: using built-in root key for view _default
+Jun 13 19:25:32 alton named[448]: set up managed keys zone for view _default, file 'managed-keys.bind'
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 16.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 17.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 18.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 19.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 20.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 21.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 22.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 23.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 24.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 25.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 26.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 27.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 28.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 29.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 30.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 31.172.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 168.192.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 64.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 65.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 66.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 67.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 68.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 69.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 70.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 71.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 72.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 73.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 74.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 75.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 76.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 77.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 78.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 79.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 80.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 81.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 82.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 83.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 84.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 85.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 86.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 87.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 88.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 89.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 90.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 91.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 92.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 93.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 94.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 95.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 96.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 97.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 98.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 99.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 100.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 101.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 102.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 103.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 104.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 105.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 106.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 107.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 108.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 109.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 110.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 111.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 112.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 113.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 114.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 115.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 116.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 117.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 118.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 119.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 120.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 121.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 122.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 123.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 124.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 125.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 126.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 127.100.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: D.F.IP6.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 8.E.F.IP6.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 9.E.F.IP6.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: A.E.F.IP6.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: B.E.F.IP6.ARPA
+Jun 13 19:25:32 alton named[448]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+Jun 13 19:25:32 alton named[448]: command channel listening on 127.0.0.1#953
+Jun 13 19:25:32 alton named[448]: command channel listening on ::1#953
+Jun 13 19:25:32 alton named[448]: managed-keys-zone: loaded serial 5
+Jun 13 19:25:32 alton named[448]: zone 10.in-addr.arpa/IN: loaded serial 97
+Jun 13 19:25:32 alton named[448]: zone 255.in-addr.arpa/IN: loaded serial 1
+Jun 13 19:25:32 alton openhpid[459]: Starting openhpid: success.
+Jun 13 19:25:32 alton named[448]: zone 127.in-addr.arpa/IN: loaded serial 1
+Jun 13 19:25:32 alton named[448]: zone localhost/IN: loaded serial 2
+Jun 13 19:25:32 alton named[448]: zone got/IN: loaded serial 96
+Jun 13 19:25:32 alton systemd[1]: openhpid.service: main process exited, code=exited, status=8/n/a
+Jun 13 19:25:32 alton openhpid[542]: Stopping openhpid: success.
+Jun 13 19:25:32 alton systemd[1]: Unit openhpid.service entered failed state.
+Jun 13 19:25:32 alton named[448]: zone 0.in-addr.arpa/IN: loaded serial 1
+Jun 13 19:25:32 alton named[448]: all zones loaded
+Jun 13 19:25:32 alton named[448]: running
+Jun 13 19:25:32 alton named[448]: zone got/IN: sending notifies (serial 96)
+Jun 13 19:25:32 alton named[448]: zone 10.in-addr.arpa/IN: sending notifies (serial 97)
+Jun 13 19:25:32 alton xinetd[456]: Starting internet superserver: xinetd.
+Jun 13 19:25:32 alton xinetd[770]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 19:25:32 alton xinetd[770]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 19:25:32 alton xinetd[770]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 19:25:32 alton xinetd[770]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 19:25:32 alton xinetd[770]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 19:25:32 alton xinetd[770]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 19:25:32 alton xinetd[770]: removing chargen
+Jun 13 19:25:32 alton xinetd[770]: removing chargen
+Jun 13 19:25:32 alton xinetd[770]: removing daytime
+Jun 13 19:25:32 alton xinetd[770]: removing daytime
+Jun 13 19:25:32 alton xinetd[770]: removing discard
+Jun 13 19:25:32 alton xinetd[770]: removing discard
+Jun 13 19:25:32 alton xinetd[770]: removing echo
+Jun 13 19:25:32 alton xinetd[770]: removing echo
+Jun 13 19:25:32 alton xinetd[770]: removing time
+Jun 13 19:25:32 alton xinetd[770]: removing time
+Jun 13 19:25:32 alton xinetd[770]: xinetd Version 2.3.15 started with libwrap loadavg options compiled in.
+Jun 13 19:25:32 alton xinetd[770]: Started working: 1 available service
+Jun 13 19:25:32 alton exim4[457]: Starting MTA: exim4.
+Jun 13 19:25:32 alton heartbeat[538]: Starting High-Availability services: 2016/06/13_19:25:32 INFO:  Resource is stopped
+Jun 13 19:25:32 alton heartbeat[538]: Done.
+Jun 13 19:25:35 alton ntpd[488]: Listen normally on 5 eth0 fe80::3034:30ff:fe32:3234 UDP 123
+Jun 13 19:25:35 alton ntpd[488]: peers refreshed
+Jun 13 19:27:10 alton ntpd[488]: Listen normally on 6 eth0:0 10.0.30.15 UDP 123
+Jun 13 19:27:10 alton ntpd[488]: peers refreshed
+Jun 13 19:27:24 alton named[448]: client 10.0.30.20#51193: received notify for zone 'got'
+Jun 13 19:27:24 alton named[448]: zone got/IN: refused notify from non-master: 10.0.30.20#51193
+Jun 13 19:27:24 alton named[448]: client 10.0.30.20#51193: received notify for zone '10.in-addr.arpa'
+Jun 13 19:27:24 alton named[448]: zone 10.in-addr.arpa/IN: refused notify from non-master: 10.0.30.20#51193
+Jun 13 19:27:53 alton redis-cli[1546]: NOAUTH Authentication required.
+Jun 13 23:55:45 alton named[448]: error (network unreachable) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 2001:43f8:110::10#53
+Jun 13 23:55:45 alton named[448]: error (network unreachable) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 2001:67c:e0::1#53
+Jun 13 23:55:45 alton named[448]: error (network unreachable) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 2001:dd8:6::101#53
+Jun 13 23:55:45 alton named[448]: error (network unreachable) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 2001:13c7:7010::53#53
+Jun 13 23:55:45 alton named[448]: error (network unreachable) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 2001:500:87::87#53
+Jun 13 23:55:45 alton named[448]: error (unexpected RCODE REFUSED) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 61.128.192.77#53
+Jun 13 23:55:46 alton named[448]: error (unexpected RCODE REFUSED) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 61.128.128.77#53
+Jun 13 23:55:51 alton named[448]: error (unexpected RCODE REFUSED) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 61.128.128.77#53
+Jun 13 23:55:52 alton named[448]: error (unexpected RCODE REFUSED) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 61.128.192.77#53
+Jun 14 00:06:40 alton named[448]: error (unexpected RCODE REFUSED) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 61.128.128.77#53
+Jun 14 00:06:41 alton named[448]: error (unexpected RCODE REFUSED) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 61.128.192.77#53
+Jun 14 00:06:47 alton named[448]: error (unexpected RCODE REFUSED) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 61.128.128.77#53
+Jun 14 00:06:47 alton named[448]: error (unexpected RCODE REFUSED) resolving '102.184.178.222.in-addr.arpa/PTR/IN': 61.128.192.77#53
